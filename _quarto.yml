@@ -1,0 +1,29 @@
+project:
+  type: website
+  output-dir: _site
+
+pagetitle: "Smart Charging"
+title: "Measuring Consumer Willingness to Participate in BEV Smart Charging Programs"
+author: "Pingfan Hu, Brian Tarroja, Matthew Dean, Kate Forrest, Eric Hittinger, Alan Jenn, John Paul Helveston"
+format:
+  revealjs: 
+    smaller: false
+    theme: styles/theme.scss
+    css: styles/slides.css
+    bibliography: bibliography.bib
+    slide-number: true
+    embed-resources: true
+    auto-stretch: false
+    preview-links: auto
+    logo: figs/logo.png
+    footer: "<a href='http://pingfanhu.com'>Pingfan Hu</a> - IEEE VPPC 2024"
+    link-external-newwindow: true
+    link-external-icon: false
+    title-slide-attributes: 
+      data-background-image: figs/social_image_2.jpeg
+      data-background-size: cover
+      data-background-opacity: "0.2"
+
+execute: 
+  warning: false
+  echo: false
