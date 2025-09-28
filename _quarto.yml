@@ -2,7 +2,7 @@ project:
   type: website
   output-dir: _site
 
-pagetitle: "Smart Charging"
+pagetitle: "Smart Charging IEEE VPPC"
 title: "Measuring Consumer Willingness to Participate in BEV Smart Charging Programs"
 author: "Pingfan Hu, Brian Tarroja, Matthew Dean, Kate Forrest, Eric Hittinger, Alan Jenn, John Paul Helveston"
 format:
