@@ -5,7 +5,7 @@ library(tidyverse)
 library(kableExtra)
 ```
 
-## Introduction {.smaller}
+## Introduction {.smaller .light-centered .center}
 
 - BEVs (Battery Electric Vehicles) can reduce $CO_2$ and prevent air pollution.
 - But managing BEV charging can become a problem for the grid.
@@ -13,25 +13,25 @@ library(kableExtra)
 
 ![](https://live.staticflickr.com/65535/52717769270_e5071e9c6d_b.jpg){fig-align="center" width="60%"}
 
-## SMC - Supplier Managed Charging
+## SMC - Supplier Managed Charging {.light-centered .center}
 
 - SMC smooths out overnight EV charging demand.
 - Electricity demand is controlled below capacity threshold.
 
 ![](figs/education_1_half.png){fig-align="center"}
 
-## SMC - Supplier Managed Charging
+## SMC - Supplier Managed Charging {.light-centered .center}
 
 - SMC smooths out overnight EV charging demand.
 - Electricity demand is controlled below capacity threshold.
 
 ![](figs/education_1.png){fig-align="center"}
 
-## V2G - Vehicle-to-Grid
+## V2G - Vehicle-to-Grid {.light-centered .center}
 
 ![](figs/education_2.png){fig-align="center" width="70%"}
 
-## Literature Review
+## Literature Review {.light-centered .center}
 
 1. A study by @wong_incentives_2023 examined **incentives** affect the EV owners' acceptance, <span style="color: #739C69">but EV ownership is only 19%</span>.
 2. A study by @philip_consumer_2024 found **range anxiety** matters, <span style="color: #739C69">but EV ownership is only 1.28%</span>.
@@ -43,7 +43,7 @@ None of them have demographics data to study <span style="color: #739C69">hetero
 We need high EV ownership & large sample size, and consider heterogeneity.
 :::
 
-## Research Questions {style="line-height: 2;"}
+## Research Questions {style="line-height: 2;" .light-centered .center}
 
 1. **Sensitivity**: How do changes in smart charging program features influence BEV owners' **willingness** to opt in?
 
@@ -57,7 +57,7 @@ We need high EV ownership & large sample size, and consider heterogeneity.
 **Mixed logit model** to evaluate utilities for simulations.
 :::
 
-## Survey Design with `formr` {.smaller style="line-height: 1.8;"}
+## Survey Design with `formr` {.smaller style="line-height: 1.8;" .light-centered .center}
 
 ::: {.columns}
 ::: {.column .fragment width="50%"}
@@ -94,7 +94,7 @@ smc_attributes_kable
 :::
 :::
 
-## Conjoint Question Explained
+## Conjoint Question Explained {.light-centered .center}
 
 ### A Sample Conjoint Question {style="text-align: center; font-size: 36px; color: #739C69;"}
 
@@ -105,7 +105,7 @@ smc_attributes_kable
 2. You choose one **set** instead of one **attribute**.
 :::
 
-## SMC Programs {.smaller style="line-height: 1.8;"}
+## SMC Programs {.smaller style="line-height: 1.8;" .light-centered .center}
 
 ::: {.columns}
 ::: {.column .fragment width="50%"}
@@ -144,7 +144,7 @@ smc_options_kable
 :::
 :::
 
-## V2G Programs {.smaller style="line-height: 1.8;"}
+## V2G Programs {.smaller style="line-height: 1.8;" .light-centered .center}
 
 ::: {.columns}
 ::: {.column .fragment width="50%"}
@@ -194,15 +194,15 @@ v2g_options_kable
 :::
 :::
 
-## Sample SMC Question
+## Sample SMC Question {.light-centered .center}
 
 ![](figs/smc_question.jpg){fig-align="center"}
 
-## Sample V2G Question
+## Sample V2G Question {.light-centered .center}
 
 ![](figs/v2g_question.jpg){fig-align="center"}
 
-## Survey Fielding
+## Survey Fielding {.light-centered .center}
 
 <span style="color: #739C69">**Meta**</span>: Facebook, Messenger, Instagram - **Voluntary**
 
@@ -218,10 +218,10 @@ v2g_options_kable
 ![](figs/survey_fielding.png){fig-align="center" width="70%"}
 :::
 
-## Survey Results - Top 10 BEV
+## Survey Results - Top 10 BEV {.light-centered .center}
 ![](figs/top_bev.png)
 
-## Survey Results - Demographics
+## Survey Results - Demographics {.light-centered .center}
 
 ::: {.fragment style="fig-align: center;"}
 ![](figs/result_1.png)
@@ -235,7 +235,7 @@ v2g_options_kable
 ![](figs/result_3.png)
 :::
 
-## Survey Results - Willingness to Participate {.smaller}
+## Survey Results - Willingness to Participate {.smaller .light-centered .center}
 
 ::: {.fragment}
 ### Mixed Logit Models {style="text-align: center; font-size: 36px; color: #739C69;"}
@@ -267,11 +267,11 @@ $$
 Without compensation, users will not participate.
 :::
 
-## Enrollment Sensitivity
+## Enrollment Sensitivity {.light-centered .center}
 
 ![](figs/sensitivity_plot_1.png){fig-align="center"}
 
-## Enrollment Sensitivity
+## Enrollment Sensitivity {.light-centered .center}
 
 ![](figs/sensitivity_plot_2.png){fig-align="center"}
 
@@ -279,15 +279,15 @@ Without compensation, users will not participate.
 Steeper slope indicates higher sensitivity.
 :::
 
-## Enrollment Sensitivity Combined - SMC
+## Enrollment Sensitivity Combined - SMC {.light-centered .center}
 
 ![](figs/smc_combined_plot.png){fig-align="center"}
 
-## Enrollment Sensitivity Combined - V2G
+## Enrollment Sensitivity Combined - V2G {.light-centered .center}
 
 ![](figs/v2g_combined_plot.png){fig-align="center"}
 
-## Enrollment Sensitivity Combined - Summary {.smaller}
+## Enrollment Sensitivity Combined - Summary {.smaller .light-centered .center}
 
 ::: {.columns}
 ::: {.column width="50%"}
@@ -307,10 +307,10 @@ Steeper slope indicates higher sensitivity.
 5. Diminishing returns exist.
 :::
 
-## Market Simulation - SMC
+## Market Simulation - SMC {.light-centered .center}
 ![](figs/smc_mxl_sim_plot.png){fig-align="center"}
 
-## Market Simulation - V2G
+## Market Simulation - V2G {.light-centered .center}
 ![](figs/v2g_mxl_sim_plot.png){fig-align="center"}
 
-## Reference List
+## Reference List {.center}
