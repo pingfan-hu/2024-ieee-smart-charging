@@ -204,6 +204,7 @@ v2g_options_kable
 
 ## Survey Fielding {.light-centered .center}
 
+::: {style="text-align: left; width: fit-content; margin-left: auto; margin-right: auto;"}
 <span style="color: #739C69">**Meta**</span>: Facebook, Messenger, Instagram - **Voluntary**
 
 - Fielding from March to July in 2024
@@ -213,6 +214,7 @@ v2g_options_kable
 
 - Fielding from September to November in 2024
 - **553** results after filtering
+:::
 
 ::: {style="text-align: center;"}
 ![](figs/survey_fielding.png){fig-align="center" width="70%"}

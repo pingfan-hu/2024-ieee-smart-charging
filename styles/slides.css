@@ -54,3 +54,25 @@ th {
 div.csl-entry {
   margin-bottom: 0.5em;
 }
+
+/* This deck's title slide is a full-bleed faded photo with no right-side logo,
+   so undo the theme's 58% title-text cap (it exists only to keep text clear of
+   the default side logo) and let the title use the full slide width. */
+#title-slide > h1.title,
+#title-slide > .quarto-title-authors {
+  max-width: none;
+}
+
+/* T-shaped title layout: a wide two-line title with a clear size hierarchy
+   over a narrower, smaller author block. No decoration; the wide gap between
+   the two groups is what separates them. */
+#title-slide > h1.title {
+  font-size: 1.45em;
+  margin-bottom: 0;
+}
+
+#title-slide > .quarto-title-authors {
+  max-width: 50%;
+  margin: 4.5em auto 0;
+  font-size: 0.8em;
+}
