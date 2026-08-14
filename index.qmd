@@ -16,14 +16,14 @@ library(kableExtra)
 ## SMC - Supplier Managed Charging {.light-centered .center}
 
 - SMC smooths out overnight EV charging demand.
-- Electricity demand is controlled below capacity threshold.
+- Electricity demand is controlled below the capacity threshold.
 
 ![](figs/education_1_half.png){fig-align="center"}
 
 ## SMC - Supplier Managed Charging {.light-centered .center}
 
 - SMC smooths out overnight EV charging demand.
-- Electricity demand is controlled below capacity threshold.
+- Electricity demand is controlled below the capacity threshold.
 
 ![](figs/education_1.png){fig-align="center"}
 
@@ -33,14 +33,14 @@ library(kableExtra)
 
 ## Literature Review {.light-centered .center}
 
-1. A study by @wong_incentives_2023 examined **incentives** affect the EV owners' acceptance, <span style="color: #739C69">but EV ownership is only 19%</span>.
+1. A study by @wong_incentives_2023 examined how **incentives** affect EV owners' acceptance, <span style="color: #739C69">but EV ownership is only 19%</span>.
 2. A study by @philip_consumer_2024 found **range anxiety** matters, <span style="color: #739C69">but EV ownership is only 1.28%</span>.
 3. Another study by @huang_are_2021 indicates the importance of **fast charging**, <span style="color: #739C69">but the sample size is only 157</span>.
 
-None of them have demographics data to study <span style="color: #739C69">heterogeneity</span>.
+None of them have demographic data to study <span style="color: #739C69">heterogeneity</span>.
 
 ::: {.centered-text .container}
-We need high EV ownership & large sample size, and consider heterogeneity.
+We need high EV ownership & a large sample size, and consider heterogeneity.
 :::
 
 ## Research Questions {style="line-height: 2;" .light-centered .center}
@@ -303,7 +303,7 @@ Steeper slope indicates higher sensitivity.
 
 :::{style="margin-left: 2em;"}
 1. **Monetary** incentives are important.
-2. **Recurring** incentives are more important than one-time.
+2. **Recurring** incentives are more important than one-time ones.
 3. For SMC, **range anxiety** is vital, since it happens regularly.
 4. For V2G, usability is compromised.
 5. Diminishing returns exist.
