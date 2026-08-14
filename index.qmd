@@ -15,14 +15,14 @@ library(kableExtra)
 
 ## SMC - Supplier Managed Charging {.light-centered .center}
 
-- SMC smooths out overnight EV charging demand.
+- SMC smooths out overnight BEV charging demand.
 - Electricity demand is controlled below the capacity threshold.
 
 ![](figs/education_1_half.png){fig-align="center"}
 
 ## SMC - Supplier Managed Charging {.light-centered .center}
 
-- SMC smooths out overnight EV charging demand.
+- SMC smooths out overnight BEV charging demand.
 - Electricity demand is controlled below the capacity threshold.
 
 ![](figs/education_1.png){fig-align="center"}
@@ -40,7 +40,7 @@ library(kableExtra)
 None of them have demographic data to study <span style="color: #739C69">heterogeneity</span>.
 
 ::: {.centered-text .container}
-We need high EV ownership & a large sample size, and consider heterogeneity.
+We need high BEV ownership & a large sample size, and consider heterogeneity.
 :::
 
 ## Research Questions {style="line-height: 2;" .light-centered .center}
