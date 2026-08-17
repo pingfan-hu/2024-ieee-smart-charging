@@ -15,7 +15,7 @@ format:
     auto-stretch: false
     preview-links: auto
     logo: figs/logo.png
-    footer: "<a href='http://pingfanhu.com'>Pingfan Hu</a> - IEEE VPPC 2024"
+    footer: "<a href='https://pingfan.org'>Pingfan Hu</a> - IEEE VPPC 2024"
     link-external-newwindow: true
     link-external-icon: false
     title-slide-attributes: 
